@@ -1,3 +1,25 @@
+### Configuración del Frontend
+
+1. **Ir a la Carpeta del Frontend**
+
+    ```bash
+    cd ../frontend
+    ```
+
+2. **Instalar Dependencias**
+
+    ```bash
+    npm install
+    ```
+
+3. **Iniciar la Aplicación**
+
+    ```bash
+    npm start
+    ```
+
+   El frontend debería estar corriendo en `http://localhost:3000`.
+   
 ## Contribuir
 
 Para contribuir al proyecto, sigue estas instrucciones:
