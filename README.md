@@ -1,8 +1,89 @@
-# React + Vite
+## Contribuir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para contribuir al proyecto, sigue estas instrucciones:
 
-Currently, two official plugins are available:
+### Flujo de Trabajo de Git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clonar el Repositorio**
+
+   Clona el repositorio en tu máquina local:
+
+    ```bash
+    git clone https://github.com/tu-usuario/lego-ecommerce.git
+    cd lego-ecommerce
+    ```
+
+2. **Crear una Nueva Rama**
+
+   Siempre trabaja en una nueva rama para tus cambios:
+
+    ```bash
+    git checkout -b nombre-de-la-rama
+    ```
+
+   Reemplaza `nombre-de-la-rama` con un nombre descriptivo para tu tarea, por ejemplo, `feature/login-page` o `bugfix/fix-product-details`.
+
+3. **Hacer Cambios y Commits**
+
+   Realiza los cambios necesarios en el código. Una vez que hayas terminado, añade tus cambios al área de staging:
+
+    ```bash
+    git add .
+    ```
+
+   Haz un commit con un mensaje descriptivo de los cambios realizados:
+
+    ```bash
+    git commit -m "Descripción clara y concisa de los cambios"
+    ```
+
+4. **Actualizar la Rama Principal**
+
+   Antes de hacer un push, asegúrate de que tu rama esté actualizada con los últimos cambios en la rama principal:
+
+    ```bash
+    git checkout main
+    git pull origin main
+    git checkout nombre-de-la-rama
+    git rebase main
+    ```
+
+   Resuelve cualquier conflicto si es necesario.
+
+5. **Hacer Push a GitHub**
+
+   Envía tus cambios a tu rama en GitHub:
+
+    ```bash
+    git push origin nombre-de-la-rama
+    ```
+
+6. **Crear una Pull Request (PR)**
+
+   Ve a [GitHub](https://github.com/tu-usuario/lego-ecommerce) y crea una Pull Request desde tu rama hacia la rama principal (`main` o `master`).
+
+   1. Navega a la pestaña "Pull requests" en el repositorio de GitHub.
+   2. Haz clic en "New pull request".
+   3. Selecciona tu rama en el menú desplegable "compare".
+   4. Escribe un título y una descripción para tu Pull Request.
+   5. Revisa los cambios y haz clic en "Create pull request".
+
+7. **Revisión de Código**
+
+   Tu Pull Request será revisado por otros miembros del equipo. Ellos pueden hacer comentarios y sugerencias. Asegúrate de responder a los comentarios y realizar los ajustes necesarios.
+
+8. **Fusionar la Pull Request**
+
+   Una vez que la Pull Request sea revisada y aprobada, se fusionará en la rama principal. Si eres responsable de la fusión, asegúrate de hacerlo con cuidado.
+
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
+
+   Elimina la rama si ya no es necesaria:
+
+    ```bash
+    git branch -d nombre-de-la-rama
+    git push origin --delete nombre-de-la-rama
+    ```
