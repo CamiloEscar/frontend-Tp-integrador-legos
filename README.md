@@ -9,8 +9,8 @@ Para contribuir al proyecto, sigue estas instrucciones:
    Clona el repositorio en tu máquina local:
 
     ```bash
-    git clone https://github.com/tu-usuario/lego-ecommerce.git
-    cd lego-ecommerce
+    git clone https://github.com/CamiloEscar/frontend-Tp-integrador-legos.git
+    cd frontend-Tp-integrador-legos
     ```
 
 2. **Crear una Nueva Rama**
@@ -60,7 +60,7 @@ Para contribuir al proyecto, sigue estas instrucciones:
 
 6. **Crear una Pull Request (PR)**
 
-   Ve a [GitHub](https://github.com/tu-usuario/lego-ecommerce) y crea una Pull Request desde tu rama hacia la rama principal (`main` o `master`).
+   Ve a [GitHub](https://github.com/CamiloEscar/frontend-Tp-integrador-legos) y crea una Pull Request desde tu rama hacia la rama principal (`main` o `master`).
 
    1. Navega a la pestaña "Pull requests" en el repositorio de GitHub.
    2. Haz clic en "New pull request".
@@ -87,3 +87,10 @@ Para contribuir al proyecto, sigue estas instrucciones:
     git branch -d nombre-de-la-rama
     git push origin --delete nombre-de-la-rama
     ```
+
+### Buenas Prácticas
+
+- **Commits Pequeños y Frecuentes**: Realiza commits pequeños y con frecuencia para facilitar la revisión y la integración de cambios.
+- **Mensajes de Commit Claros**: Usa mensajes de commit claros y descriptivos para facilitar la comprensión de los cambios realizados.
+- **Pruebas y Validación**: Asegúrate de que tu código esté bien probado antes de hacer un commit. Si es necesario, añade nuevas pruebas para validar tus cambios.
+- **Documentación**: Actualiza la documentación si tus cambios afectan el uso o la configuración del proyecto.
